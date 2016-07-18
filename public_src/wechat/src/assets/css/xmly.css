@@ -1,0 +1,171 @@
+.category-item {
+  width: 100px;
+  height: 130px;
+  border-radius: 10px;
+}
+.category-item img{
+  width: 100px;
+}
+.category-title{
+  text-align: center;
+}
+.category{
+  background-color: #ccc;
+}
+.recommand{
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  padding-left: 16px;
+}
+.more{
+  position: absolute;
+  right: 10px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.bbcloud-list3-item  {
+    padding: 5% 0 5% 0;
+    border-bottom: 1px solid #BBBBBB;
+}
+
+.bbcloud-list3-item-col1 {
+    width: 22%;
+    height: 4em;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin-left: 3%;
+}
+
+.bbcloud-list3-item-col2 {
+    display: inline-block;
+    width: 64%;
+    height: 56px;
+    margin-left: 0.5%;
+}
+
+.bbcloud-list3-item-col3 {
+    display: inline-block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 1%;
+    height: 21px;
+}
+
+.stroy-item-row1{
+    font-size: 1em;
+    font-weight: bold;
+    height: 24px;
+    width: 12em;
+    overflow: hidden;
+}
+.stroy-item-row2 {
+    font-size: 0.7em;
+    color: #666666;
+    width: 100%;
+    height: 34px;
+    overflow: hidden;
+}
+table {
+    margin-left: 0.4em;
+    width:100%;;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.bbcloud-list3-item0  {
+    padding: 4% 0 4% 5%;
+    color: #666666;
+}
+.bbcloud-list3-item1  {
+    padding: 0 0 0 0;
+}
+/* 灰色过渡带 */
+.bbcloud-list3-nav {
+    width:100%;
+    height: 0.8em;
+    background: #F0F0F2;
+    border-top: 1px solid #BBBBBB;
+}
+
+.bbcloud-list-col1 {
+    margin-left: 5%;
+    width: 20%;
+    height: 3em;
+
+}
+.bbcloud-list3-item-col2 {
+    display: inline-block;
+    font-size: 0.7em;
+    width: 57%;
+    height: 56px;
+}
+.bbcloud-list-col3 {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 7%;
+    height: 1.6em;
+}
+.bbcloud-table-col1 {
+    height: 33px;
+    width: 5.5em;
+    font-size: 16px;
+    line-height: 33px;
+    overflow: hidden;
+}
+.bbcloud-table-col2 {
+    text-align:right;
+}
+
+.bbcloud-list3-item-col1 {
+    width: 33%;
+    height: 5.4em;
+    box-sizing: border-box;
+    border: 4px solid #BBBBBB;
+    vertical-align:top;
+}
+.bbcloud-item-row1{
+    font-size: 1.3em;
+    font-weight: bold;
+    height: 2em;
+    line-height: 2em;
+    color: #101010;
+    overflow: hidden;
+}
+/* 底部选项栏 */
+.bbcloud-list3-bottom {
+    display: table;
+    margin-top: 3%;
+    width: 100%;
+    background-color: #666666;
+    text-align: center;
+    color: #FFFFFF;
+}
+.bbcloud-option-col {
+    font-size: 14px;
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #666666;
+}
+.bbcloud-option-col1-icon {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+  author:cjj
+*/
+.getmore{
+  text-align: center;
+  padding: 15px;
+  color: #ccc;
+}
+/*
+end author:cjj
+*/

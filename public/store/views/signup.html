@@ -1,0 +1,41 @@
+<div class="container">
+
+  <h1>注册 BBCloud 帐号</h1>
+
+  <div class="row">
+
+    <div class="col-sm-6">
+
+      <form ng-submit="authCtrl.signup(credentials)">
+
+        <div class="form-group">
+          手机号
+          <input class="form-control" ng-model="credentials.mobilePhoneNumber" placeholder="+86-1xx-xxxx-xxxx">
+        </div>
+
+        <div class="form-group">
+          密码
+          <input class="form-control" type="password" ng-model="credentials.password" placeholder="我有一个小秘密">
+        </div>
+
+        <div class="form-group">
+          重新输入密码
+          <input class="form-control" type="password" ng-model="retypePassword" placeholder="再输入一遍，防止出错">
+        </div>
+
+        <div class="form-group">
+          <button class="btn btn-primary btn-large btn-block">注册</button>
+        </div>
+
+        <div class="form-group">
+          有帐号？你可以 <a ui-sref="login">登录</a>
+        </div>
+
+      </form>
+
+    </div>
+
+    <div class="col-sm-6">
+    </div>
+
+</div>

@@ -1,0 +1,10 @@
+# 这个文件是用于记录需要在生产上初始化的数据·各人把需要初始化的写下来作为备忘录。格式：[序号][内容][由谁添加]
+1.角色与权限的初始化。[chenjunjian]
+2.邮件推送配置。[chenjunjian]
+3.微信菜单。[chenjunjian]
+4.OSS配置。[chenjunjian]
+5.表情包初始化。[heyufeng]
+6.初始厂家类型 [chenjunjian]
+7.小红花规则初始化 [wujinyi]
+8.添加iot 故事 storyBucket
+9.阿里云iot需要配置设备状态通知信息推送地址 [wujinyi]

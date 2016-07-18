@@ -1,0 +1,101 @@
+/*
+故事
+*/
+
+/*
+playblock
+*/
+/* 底部列表 */
+.story-list {
+    margin:0px;
+}
+
+.story-list li:last-child {
+    border-bottom: none;
+}
+
+.story-list-item {
+    font-size: 16px;
+}
+
+/*分类框*/
+.story-list-item-option {
+    width: 100%;
+    padding:1px 0 0 0; /*分类框内边距*/
+    margin: 0px;
+    background-color: #666666;
+    color: #F5FFE7;
+    font-size: 14px;
+}
+.story-list-item-option li {
+    display: inline-block;
+    width: 18%;
+    text-align: center;
+    padding: 14% 0 10px;
+    background-size: 37px;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-left: 5%;
+
+}
+
+.story-list-item-option li a {
+    margin: 15px 10px 0 10px;
+}
+.story-list-item-collection {
+    margin-top:0px;
+    background-image: url("../logo.png");
+    border-bottom: 0px;
+}
+
+.story-list-item-audition {
+    margin-top:10px;
+    background-image: url("../logo.png");
+    border-bottom: 0px;
+}
+
+.story-list-item-demand {
+    margin-top:10px;
+    background-image: url("../logo.png");
+    border-bottom: 0px;
+}
+.story-list-item-push {
+    margin-top:10px;
+    background-image: url("../logo.png");
+    border-bottom: 0px;
+}
+.story-list-item img{width: 14%; display: inline-block;padding: 16px;}
+.play-block-content{
+  display: inline-block;
+  width: 68%;
+  margin-top: 16px;
+  position: absolute;
+  padding-right: 10px;
+}
+.play-block-title {
+  color:#000;
+  font-weight: bold;
+  font-size: 18px;
+}
+.play-block-desc{
+  font-size: 14px;
+  color: #666;
+}
+.goyinzi{
+  position: absolute;
+  z-index: 2;
+  right: 5px;
+  width: 30px;
+  height: 30px;
+  margin-top: 36px;
+  background-size: 14px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-image: url("../more_hd.png");
+}
+.play-block-desc-oneline {line-height: 16px;height: 16px;font-size: 14px;overflow: hidden;text-overflow:ellipsis;}
+.play-block-time span{color:#666;border-right: 1px solid #ccc;padding-right:10px;font-size: 14px;}
+.play-block-time span:last-child{border-right: 0px;}
+/*
+play block end
+*/

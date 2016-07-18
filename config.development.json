@@ -1,0 +1,48 @@
+{
+  "port": 3000,
+  "mongodb": "mongodb://127.0.0.1/test",
+  "secret": "secret",
+  "tokenExpiresIn": "1h",
+  "wechat": {
+    "appId": "wx51d16f6abd2213b5",
+    "appSecret": "7de99acb9201a8c34326c636d3ddbcb3",
+    "callbackUrl": "callbackurl",
+    "scope": "snapi_userinfo",
+    "state": "state",
+    "debug": false,
+    "airkissKey": "airkisskey",
+    "token":"bbcloudtoken123",
+    "encodingAESKey":"6nQKlixo3nEAYXeELoeNefAplRXPa4XwDCG28xVbAMh",
+    "baseUrl":"http://120.24.230.248"
+  },
+  "yunwang": {
+    "appkey": "23382671",
+    "appsecret": "14891ae2f39341dec73b28f1250910b0",
+    "REST_URL": "http://gw.api.taobao.com/router/rest"
+  },
+  "nodemailerTransporter": {
+    "host": "smtpdm.aliyun.com",
+    "port": 25,
+    "secureConnection": true,
+    "auth": {
+      "user": "i@tosiney.com",
+      "pass": "8541539655Aa"
+    }
+  },
+  "mailFrom": "i@tosiney.com",
+  "sendMailDelay": 60,
+  "voiceProvider":{
+    "tts-s":{
+      "serviceName":"tts-华南",
+      "providers":["科大讯飞TTS","微软TTS"]
+    },
+    "tts-n":{
+      "serviceName":"tts-华北",
+      "providers":["科大讯飞TTS"]
+    },
+    "stt-n":{
+      "serviceName":"stt-华北",
+      "providers":["科大讯飞STT"]
+    }
+  }
+}

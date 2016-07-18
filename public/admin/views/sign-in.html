@@ -1,0 +1,14 @@
+<div class="container">
+  <h1>管理员登录</h1>
+  <form ng-submit="signInCtrl.signIn(credentials)">
+    <div class="form-group">
+      <input class="form-control" ng-model="credentials.name" placeholder="管理员邮箱">
+    </div>
+    <div class="form-group">
+      <input class="form-control" type="password" ng-model="credentials.password" placeholder="密码">
+    </div>
+    <div class="form-group">
+      <button class="btn btn-primary">登录</button>
+    </div>
+  </form>
+</div>

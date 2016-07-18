@@ -1,0 +1,24 @@
+<div class="container">
+
+  <h1>选择厂商</h1>
+
+  <button class="btn btn-primary btn-sm"
+    ng-repeat="manufacturer in manufacturerCtrl.manufacturers"
+    ng-click="manufacturerCtrl.select(manufacturer.id)">{{manufacturer.name}}
+  </button>
+
+  <h2>建立新厂商</h2>
+
+  <form ng-submit="manufacturerCtrl.createNewManufacturer(entity)">
+
+    <div class="form-group">
+      <input class="form-control" ng-model="entity.name">
+    </div>
+
+    <div class="form-group">
+      <button class="btn btn-default">建立新厂商</button>
+    </div>
+
+  </form>
+
+</div>

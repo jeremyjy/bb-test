@@ -1,0 +1,38 @@
+<div class="md-col-6" ng-controller="storyCategoryController as ctrl">
+  <h1>排序</h1>
+  <ul class="list-group">
+    <li class="list-group-item" ng-repeat="(index,item) in list" ng-class="currentIndex==index?'active':''">
+      {{item.name}}
+      <div>
+        <span class="btn" ng-click="toOrder(4,index)">置顶</span>
+        <span class="btn" ng-click="toOrder(3,index)">向上</span>
+        <span class="btn" ng-click="toOrder(2,index)">向下</span>
+        <span class="btn" ng-click="toOrder(1,index)">置底</span>
+      </div>
+    </li>
+  </ul>
+  <div class="form-group">
+    <button ng-click="saveOrder()" class="btn btn-default pull-left">保存</button>
+    <button ng-click="cancelSaveOrder()" class="btn btn-default pull-left">取消</button>
+  </div>
+  <audio id="hello" src="./abc.m4r">
+    hello
+  </audio>
+</div>
+<style>
+  .list-group-item div{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+  }
+  .list-group-item div span{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .active {
+    background-color: #ccc;
+  }
+  .active:hover span{
+    color:yellow;
+  }
+</style>

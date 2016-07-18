@@ -1,0 +1,24 @@
+<div class="container">
+  <form name="uploadform">
+    <label class="col-sm-2 control-label" for="upload-macIds">上传设备macId</label>
+
+    <input type="file" ngf-select ng-model="idFile" name="file"
+           accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"
+           ngf-max-size="2MB" required
+           ngf-model-invalid="errorFile">
+    <i ng-show="uploadform.file.$error.required">*required</i><br>
+    <i ng-show="uploadform.file.$error.maxSize">File too large
+        {{errorFile.size / 1000000|number:1}}MB: max 2M</i>
+    <img ng-show="uploadform.file.$valid" ngf-thumbnail="idFile" class="thumb"> <button ng-click="idFile = null" ng-show="idFile">Remove</button>
+    <br>
+    <button ng-disabled="!uploadform.$valid"
+            ng-click="uploadMacIds(idFile)">提交</button>
+    <span class="progress" ng-show="idFile.progress >= 0">
+      <div style="width:{{idFile.progress}}%"
+          ng-bind="idFile.progress + '%'"></div>
+    </span>
+    <span ng-show="idFile.result">Upload Successful</span>
+    <span class="err" ng-show="errorMsg">{{errorMsg}}</span>
+
+  </form>
+</div>

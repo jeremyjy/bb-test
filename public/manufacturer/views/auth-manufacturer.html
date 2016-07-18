@@ -1,0 +1,28 @@
+<div class="container">
+
+  <h1>厂商认证</h1>
+
+  <form name="myForm" ng-submit="manufacturerCtrl.authManufacturer(entity)">
+
+    <div class="form-group">
+      <label for="">厂商</label>
+      <input class="form-control" ng-model="entity.name" style="width: auto" required>
+    </div>
+    <div class="form-group">
+      <label for="">代码</label>
+      <input class="form-control" ng-model="entity.code" style="width: 50%" required>
+    </div>
+
+    <div class="form-group">
+      <label for="">公司营业执照</label>
+      <input type="file" ngf-select ng-model="entity.file" value="entity.file" name="file" accept="image/*" ngf-max-size="2MB" requiredngf-model-invalid="errorFile" required>
+      <img ng-show="myForm.file.$valid" ngf-thumbnail="entity.file" class="thumb" style="width: 120px;height: 120px">
+    </div>
+
+    <div class="form-group">
+      <button class="btn btn-default" ng-disabled="!myForm.$valid">认证</button>
+    </div>
+
+  </form>
+
+</div>

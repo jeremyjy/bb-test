@@ -1,0 +1,21 @@
+{
+  "name": "bbcloud-wechat",
+  "authors": [
+    "Gen Liu <gerald_721@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "^0.3.0"
+
+  }
+}

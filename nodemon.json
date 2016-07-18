@@ -1,0 +1,8 @@
+{
+  "ignore": [
+    "public/*",
+    "test/*",
+    "scripts/*",
+    "mochawesome-reports/*"
+  ]
+}

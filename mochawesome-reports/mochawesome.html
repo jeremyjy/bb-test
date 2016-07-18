@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mochawesome Report Card</title>
+    
+    <link rel="stylesheet" href="css/mochawesome.css">
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="report-info-cnt">
+          <h1 class="report-title">bbcloud-monolithic</h1>
+          <h3 class="report-date">Thursday, June 23 2016, 05:01pm</h3>
+        </div>
+        <div class="quick-summary-cnt">
+            <ul class="list-unstyled quick-summary">
+              <li class="qs-item summary-duration" title="Duration">66<span>MS</span></li>
+              <li class="qs-item summary-suites" title="Suites">1</li>
+              <li class="qs-item summary-tests" title="Tests">7</li>
+              <li class="qs-item summary-passes" title="Passed" data-filter="passed">1</li>
+              <li class="qs-item summary-failures" title="Failed" data-filter="failed">0</li>
+              <li class="qs-item summary-pending" title="Pending" data-filter="pending">0</li>
+            </ul>        </div>
+      </div>
+    </div>
+
+    <!-- Report Summary -->
+    <div class="summary">
+      <div class="container">
+          <div class="row">
+            <div class="summary-col summary-duration">
+              <h1 class="summary-count">66<span>MS</span></h1>
+              <h4 class="summary-label">MS</h4>
+            </div>
+            <div class="summary-col summary-suites" title="Suites">
+              <h1 class="summary-count">1</h1>
+              <h4 class="summary-label">Suite</h4>
+            </div>
+            <div class="summary-col summary-tests" title="Tests">
+              <h1 class="summary-count">7</h1>
+              <h4 class="summary-label">Tests</h4>
+            </div>
+            <div class="summary-col summary-passes" data-filter="passed" title="Passed">
+              <h1 class="summary-count">1</h1>
+              <h4 class="summary-label">Passed</h4>
+            </div>
+            <div class="summary-col summary-failures" data-filter="failed" title="Failed">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Failed</h4>
+            </div>
+            <div class="summary-col summary-pending" data-filter="pending" title="Pending">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Pending</h4>
+            </div>
+          </div>      </div>
+    </div>
+    <div class="statusbar has-skipped-tests">
+      <div class="container">
+          <div class="row">
+            <div class="status-item status-item-skipped danger">6 Skipped Tests</div>
+            <div class="status-item status-item-pending-pct">0% Pending</div>
+            <div class="status-item status-item-passing-pct danger">14.3% Passing</div>
+          </div>      </div>
+    </div>
+
+    <!-- Suites -->
+    <div class="details container">
+        <section class="suite-wrap">
+          <div id="2cc8e5ad-aa14-4523-ac84-60b591e16cd7" class="suite root-suite has-suites has-tests has-skipped">
+            <h3 class="suite-title">&nbsp;</h3>
+            <h5 class="suite-filename">&nbsp;</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="2cc8e5ad-aa14-4523-ac84-60b591e16cd7" class="suite-chart" width="50" height="50" data-total-passes="0" data-total-failures="0" data-total-pending="0" data-total-skipped="6"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">0 ms</li>
+                <li class="suite-summary-item tests">6</li>
+                <li class="suite-summary-item passed">0</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#2cc8e5ad-aa14-4523-ac84-60b591e16cd7-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="2cc8e5ad-aa14-4523-ac84-60b591e16cd7-test-list" class="list-group test-list collapse in">
+                    <div id="6ba9b8b4-51e6-4494-9229-94f823c40e06" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              新增用户和绑定成功
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#6ba9b8b4-51e6-4494-9229-94f823c40e06 > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">var</span> xml = <span class="hljs-string">"&lt;xml&gt;&lt;URL&gt;&lt;![CDATA[http://test.tester.com/wechat/message]]&gt;&lt;/URL&gt;"</span> +<br>    <span class="hljs-string">"&lt;ToUserName&gt;&lt;![CDATA["</span> + signature + <span class="hljs-string">"]]&gt;&lt;/ToUserName&gt;"</span> +<br>    <span class="hljs-string">"&lt;FromUserName&gt;&lt;![CDATA["</span> + signature + <span class="hljs-string">"]]&gt;&lt;/FromUserName&gt;"</span> +<br>    <span class="hljs-string">"&lt;CreateTime&gt;"</span> + timestamp + <span class="hljs-string">"&lt;/CreateTime&gt;"</span> +<br>    <span class="hljs-string">"&lt;MsgType&gt;&lt;![CDATA[device_event]]&gt;&lt;/MsgType&gt;"</span> +<br>    <span class="hljs-string">"&lt;Event&gt;&lt;![CDATA[bind]]&gt;&lt;/Event&gt;"</span> +<br>    <span class="hljs-string">"&lt;DeviceType&gt;&lt;![CDATA["</span> + signature + <span class="hljs-string">"]]&gt;&lt;/DeviceType&gt;"</span> +<br>    <span class="hljs-string">"&lt;DeviceID&gt;&lt;![CDATA["</span> + config.deviceid + <span class="hljs-string">"]]&gt;&lt;/DeviceID&gt;"</span> +<br>    <span class="hljs-string">"&lt;Content&gt;&lt;![CDATA[xxxxxxx]]&gt;&lt;/Content&gt;"</span> +<br>    <span class="hljs-string">"&lt;SessionID&gt;123121&lt;/SessionID&gt;"</span> +<br>    <span class="hljs-string">"&lt;OpenID&gt;&lt;![CDATA["</span> + signature + <span class="hljs-string">"]]&gt;&lt;/OpenID&gt;&lt;/xml&gt;"</span>;<br><span class="hljs-keyword">var</span> option = {<br>    url: url.resolve(baseUrl, <span class="hljs-string">"/wechat?signature="</span> + signature + <span class="hljs-string">"&amp;timestamp="</span> + timestamp + <span class="hljs-string">"&amp;nonce="</span> + nonce),<br>    body: xml<br>};<br>request.post(option, (err, res, body) =&gt; {<br>    expect(err).to.be.equal(<span class="hljs-literal">null</span>);<br>    expect(res.statusCode).to.be.equal(<span class="hljs-number">200</span>);<br>    expect(body).to.be.equal(<span class="hljs-string">'create User and Bind success!'</span>);<br>    done();<br>});</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="04fdceeb-b764-49f1-942a-8635b15eaab2" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              已存在绑定关系
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#04fdceeb-b764-49f1-942a-8635b15eaab2 > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">var</span> xml = <span class="hljs-string">"&lt;xml&gt;&lt;URL&gt;&lt;![CDATA[http://test.tester.com/wechat/message]]&gt;&lt;/URL&gt;"</span> +<br>    <span class="hljs-string">"&lt;ToUserName&gt;&lt;![CDATA["</span> + signature + <span class="hljs-string">"]]&gt;&lt;/ToUserName&gt;"</span> +<br>    <span class="hljs-string">"&lt;FromUserName&gt;&lt;![CDATA["</span> + signature + <span class="hljs-string">"]]&gt;&lt;/FromUserName&gt;"</span> +<br>    <span class="hljs-string">"&lt;CreateTime&gt;"</span> + timestamp + <span class="hljs-string">"&lt;/CreateTime&gt;"</span> +<br>    <span class="hljs-string">"&lt;MsgType&gt;&lt;![CDATA[device_event]]&gt;&lt;/MsgType&gt;"</span> +<br>    <span class="hljs-string">"&lt;Event&gt;&lt;![CDATA[bind]]&gt;&lt;/Event&gt;"</span> +<br>    <span class="hljs-string">"&lt;DeviceType&gt;&lt;![CDATA["</span> + signature + <span class="hljs-string">"]]&gt;&lt;/DeviceType&gt;"</span> +<br>    <span class="hljs-string">"&lt;DeviceID&gt;&lt;![CDATA["</span> + config.deviceid + <span class="hljs-string">"]]&gt;&lt;/DeviceID&gt;"</span> +<br>    <span class="hljs-string">"&lt;Content&gt;&lt;![CDATA[xxxxxxx]]&gt;&lt;/Content&gt;"</span> +<br>    <span class="hljs-string">"&lt;SessionID&gt;123121&lt;/SessionID&gt;"</span> +<br>    <span class="hljs-string">"&lt;OpenID&gt;&lt;![CDATA["</span> + signature + <span class="hljs-string">"]]&gt;&lt;/OpenID&gt;&lt;/xml&gt;"</span>;<br><span class="hljs-keyword">var</span> option = {<br>    url: url.resolve(baseUrl, <span class="hljs-string">"/wechat?signature="</span> + signature + <span class="hljs-string">"&amp;timestamp="</span> + timestamp + <span class="hljs-string">"&amp;nonce="</span> + nonce),<br>    body: xml<br>};<br>request.post(option, (err, res, body) =&gt; {<br>    expect(err).to.be.equal(<span class="hljs-literal">null</span>);<br>    expect(res.statusCode).to.be.equal(<span class="hljs-number">500</span>);<br>    expect(body).to.be.equal(<span class="hljs-string">'aleady binded!'</span>);<br>    done();<br>});</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="e2917f00-d7bd-4938-90a2-bd0195b01678" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              缺少签名认证
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#e2917f00-d7bd-4938-90a2-bd0195b01678 > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">var</span> xml = <span class="hljs-string">"&lt;xml&gt;&lt;URL&gt;&lt;![CDATA[http://6f7930fa.ittun.com/wechat/message]]&gt;&lt;/URL&gt;&lt;ToUserName&gt;&lt;![CDATA[gh_9a0ccaa5f56d]]&gt;&lt;/ToUserName&gt;&lt;FromUserName&gt;&lt;![CDATA[xxxxxxx]]&gt;&lt;/FromUserName&gt;&lt;CreateTime&gt;123424235&lt;/CreateTime&gt;&lt;MsgType&gt;&lt;![CDATA[device_event]]&gt;&lt;/MsgType&gt;&lt;Event&gt;&lt;![CDATA[bind]]&gt;&lt;/Event&gt;&lt;DeviceType&gt;&lt;![CDATA[gh_9a0ccaa5f56d]]&gt;&lt;/DeviceType&gt;&lt;DeviceID&gt;&lt;![CDATA[gh_9a0ccaa5f56d_e0cf1c8d5aca1454]]&gt;&lt;/DeviceID&gt;&lt;Content&gt;&lt;![CDATA[xxxxxxx]]&gt;&lt;/Content&gt;&lt;SessionID&gt;123121&lt;/SessionID&gt;&lt;OpenID&gt;&lt;![CDATA[dsf23d2]]&gt;&lt;/OpenID&gt;&lt;/xml&gt;"</span>;<br><span class="hljs-keyword">var</span> option = {<br>    url: url.resolve(baseUrl, <span class="hljs-string">"/wechat?signature="</span> + signature + <span class="hljs-string">"&amp;timestamp="</span> + timestamp),<br>    body: xml<br>};<br>request.post(option, (err, res, body) =&gt; {<br>    expect(err).to.be.equal(<span class="hljs-literal">null</span>);<br>    expect(res.statusCode).to.be.equal(<span class="hljs-number">401</span>);<br>    done();<br>});</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="cdb1a0a1-0e35-45a5-832c-91b72af25c53" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              解绑事件测试
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#cdb1a0a1-0e35-45a5-832c-91b72af25c53 > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">var</span> xml = <span class="hljs-string">"&lt;xml&gt;&lt;URL&gt;&lt;![CDATA[http://test.tester.com/wechat/message]]&gt;&lt;/URL&gt;"</span> +<br>    <span class="hljs-string">"&lt;ToUserName&gt;&lt;![CDATA["</span> + signature + <span class="hljs-string">"]]&gt;&lt;/ToUserName&gt;"</span> +<br>    <span class="hljs-string">"&lt;FromUserName&gt;&lt;![CDATA["</span> + signature + <span class="hljs-string">"]]&gt;&lt;/FromUserName&gt;"</span> +<br>    <span class="hljs-string">"&lt;CreateTime&gt;"</span> + timestamp + <span class="hljs-string">"&lt;/CreateTime&gt;"</span> +<br>    <span class="hljs-string">"&lt;MsgType&gt;&lt;![CDATA[device_event]]&gt;&lt;/MsgType&gt;"</span> +<br>    <span class="hljs-string">"&lt;Event&gt;&lt;![CDATA[unbind]]&gt;&lt;/Event&gt;"</span> +<br>    <span class="hljs-string">"&lt;DeviceType&gt;&lt;![CDATA["</span> + signature + <span class="hljs-string">"]]&gt;&lt;/DeviceType&gt;"</span> +<br>    <span class="hljs-string">"&lt;DeviceID&gt;&lt;![CDATA["</span> + config.deviceid + <span class="hljs-string">"]]&gt;&lt;/DeviceID&gt;"</span> +<br>    <span class="hljs-string">"&lt;Content&gt;&lt;![CDATA[xxxxxxx]]&gt;&lt;/Content&gt;"</span> +<br>    <span class="hljs-string">"&lt;SessionID&gt;123121&lt;/SessionID&gt;"</span> +<br>    <span class="hljs-string">"&lt;OpenID&gt;&lt;![CDATA["</span> + signature + <span class="hljs-string">"]]&gt;&lt;/OpenID&gt;&lt;/xml&gt;"</span>;<br><span class="hljs-keyword">var</span> option = {<br>    url: url.resolve(baseUrl, <span class="hljs-string">"/wechat?signature="</span> + signature + <span class="hljs-string">"&amp;timestamp="</span> + timestamp + <span class="hljs-string">"&amp;nonce="</span> + nonce),<br>    body: xml<br>};<br>request.post(option, (err, res, body) =&gt; {<br>    expect(err).to.be.equal(<span class="hljs-literal">null</span>);<br>    expect(res.statusCode).to.be.equal(<span class="hljs-number">200</span>);<br>    expect(body).to.be.equal(<span class="hljs-string">'unbind success!'</span>);<br>    done();<br>});</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="184c398f-7058-4700-ad1c-9a00899a4a04" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              解绑不存在的设备
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#184c398f-7058-4700-ad1c-9a00899a4a04 > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">var</span> xml = <span class="hljs-string">"&lt;xml&gt;&lt;URL&gt;&lt;![CDATA[http://test.tester.com/wechat/message]]&gt;&lt;/URL&gt;"</span> +<br>    <span class="hljs-string">"&lt;ToUserName&gt;&lt;![CDATA["</span> + signature + <span class="hljs-string">"]]&gt;&lt;/ToUserName&gt;"</span> +<br>    <span class="hljs-string">"&lt;FromUserName&gt;&lt;![CDATA["</span> + signature + <span class="hljs-string">"]]&gt;&lt;/FromUserName&gt;"</span> +<br>    <span class="hljs-string">"&lt;CreateTime&gt;"</span> + timestamp + <span class="hljs-string">"&lt;/CreateTime&gt;"</span> +<br>    <span class="hljs-string">"&lt;MsgType&gt;&lt;![CDATA[device_event]]&gt;&lt;/MsgType&gt;"</span> +<br>    <span class="hljs-string">"&lt;Event&gt;&lt;![CDATA[unbind]]&gt;&lt;/Event&gt;"</span> +<br>    <span class="hljs-string">"&lt;DeviceType&gt;&lt;![CDATA["</span> + signature + <span class="hljs-string">"]]&gt;&lt;/DeviceType&gt;"</span> +<br>    <span class="hljs-string">"&lt;DeviceID&gt;&lt;![CDATA["</span> + signature + <span class="hljs-string">"]]&gt;&lt;/DeviceID&gt;"</span> +<br>    <span class="hljs-string">"&lt;Content&gt;&lt;![CDATA[xxxxxxx]]&gt;&lt;/Content&gt;"</span> +<br>    <span class="hljs-string">"&lt;SessionID&gt;123121&lt;/SessionID&gt;"</span> +<br>    <span class="hljs-string">"&lt;OpenID&gt;&lt;![CDATA["</span> + signature + <span class="hljs-string">"]]&gt;&lt;/OpenID&gt;&lt;/xml&gt;"</span>;<br><span class="hljs-keyword">var</span> option = {<br>    url: url.resolve(baseUrl, <span class="hljs-string">"/wechat?signature="</span> + signature + <span class="hljs-string">"&amp;timestamp="</span> + timestamp + <span class="hljs-string">"&amp;nonce="</span> + nonce),<br>    body: xml<br>};<br>request.post(option, (err, res, body) =&gt; {<br>    expect(err).to.be.equal(<span class="hljs-literal">null</span>);<br>    expect(res.statusCode).to.be.equal(<span class="hljs-number">500</span>);<br>    expect(body).to.be.equal(<span class="hljs-string">'no bund relation!'</span>);<br>    done();<br>});</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>            <div id="e2419a54-1c25-40fc-bd3d-2ef9018d7c50" class="list-group-item test skipped">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              解绑设备
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#e2419a54-1c25-40fc-bd3d-2ef9018d7c50 > .test-code.collapse">Code</button>
+              <span class="test-duration ">0 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">var</span> wechatAPI = <span class="hljs-keyword">new</span> WeChatAPI(config.appid, config.appsecret);<br>wechatAPI.compelBindDevice(config.deviceid, config.openid, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">err</span>) </span>{<br>    expect(err).to.be.equal(<span class="hljs-literal">null</span>);<br>    <span class="hljs-keyword">var</span> xml = <span class="hljs-string">"&lt;xml&gt;&lt;URL&gt;&lt;![CDATA[http://test.tester.com/wechat/message]]&gt;&lt;/URL&gt;"</span> +<br>        <span class="hljs-string">"&lt;ToUserName&gt;&lt;![CDATA["</span> + config.devicetype + <span class="hljs-string">"]]&gt;&lt;/ToUserName&gt;"</span> +<br>        <span class="hljs-string">"&lt;FromUserName&gt;&lt;![CDATA["</span> + config.openid + <span class="hljs-string">"]]&gt;&lt;/FromUserName&gt;"</span> +<br>        <span class="hljs-string">"&lt;CreateTime&gt;"</span> + timestamp + <span class="hljs-string">"&lt;/CreateTime&gt;"</span> +<br>        <span class="hljs-string">"&lt;MsgType&gt;&lt;![CDATA[device_event]]&gt;&lt;/MsgType&gt;"</span> +<br>        <span class="hljs-string">"&lt;Event&gt;&lt;![CDATA[bind]]&gt;&lt;/Event&gt;"</span> +<br>        <span class="hljs-string">"&lt;DeviceType&gt;&lt;![CDATA["</span> + config.devicetype + <span class="hljs-string">"]]&gt;&lt;/DeviceType&gt;"</span> +<br>        <span class="hljs-string">"&lt;DeviceID&gt;&lt;![CDATA["</span> + config.deviceid + <span class="hljs-string">"]]&gt;&lt;/DeviceID&gt;"</span> +<br>        <span class="hljs-string">"&lt;Content&gt;&lt;![CDATA[xxxxxxx]]&gt;&lt;/Content&gt;"</span> +<br>        <span class="hljs-string">"&lt;SessionID&gt;123121&lt;/SessionID&gt;"</span> +<br>        <span class="hljs-string">"&lt;OpenID&gt;&lt;![CDATA["</span> + config.openid + <span class="hljs-string">"]]&gt;&lt;/OpenID&gt;&lt;/xml&gt;"</span>;<br>    <span class="hljs-keyword">var</span> option = {<br>        url: url.resolve(baseUrl, <span class="hljs-string">"/wechat?signature="</span> + signature + <span class="hljs-string">"&amp;timestamp="</span> + timestamp + <span class="hljs-string">"&amp;nonce="</span> + nonce),<br>        body: xml<br>    };<br>    request.post(option, (err, res, body) =&gt; {<br>        expect(err).to.be.equal(<span class="hljs-literal">null</span>);<br>        request(baseUrl + <span class="hljs-string">"/api/wechat/unbindDevice?openId="</span> + config.openid + <span class="hljs-string">"&amp;deviceId="</span> + config.deviceid, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">err, res, body</span>) </span>{<br>            expect(err).to.be.equal(<span class="hljs-literal">null</span>);<br>            expect(res.statusCode).to.be.equal(<span class="hljs-number">200</span>);<br>            expect(body).to.be.equal(<span class="hljs-string">'unbind totally success!'</span>);<br>            done();<br>        })<br>    });<br>});</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+              <section class="suite-wrap">
+          <div id="2fb8e4a7-fd21-4aab-8447-1ca0ff639213" class="suite">
+            <h3 class="suite-title">微信测试</h3>
+            <h5 class="suite-filename">/test/wechattest.js</h5>
+        
+        
+          </div>
+        </section>
+              <section class="suite-wrap">
+          <div id="8e147a17-375d-46fd-a9cd-5fce4a406e34" class="suite has-tests has-passed">
+            <h3 class="suite-title">配置信息</h3>
+            <h5 class="suite-filename">/test/wechattest.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="8e147a17-375d-46fd-a9cd-5fce4a406e34" class="suite-chart" width="50" height="50" data-total-passes="1" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">30 ms</li>
+                <li class="suite-summary-item tests">1</li>
+                <li class="suite-summary-item passed">1</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#8e147a17-375d-46fd-a9cd-5fce4a406e34-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="8e147a17-375d-46fd-a9cd-5fce4a406e34-test-list" class="list-group test-list collapse in">
+                    <div id="eb393598-ce3e-4a10-b7a3-fafe9fba6137" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              查询成功
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#eb393598-ce3e-4a10-b7a3-fafe9fba6137 > .test-code.collapse">Code</button>
+              <span class="test-duration fast">30 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+          <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small">request(baseUrl + <span class="hljs-string">'/api/wechat/getJsApiConfig'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">err, res, body</span>) </span>{<br>    expect(err).to.be.equal(<span class="hljs-literal">null</span>);<br>    expect(res.statusCode).to.be.equal(<span class="hljs-number">200</span>);<br>    done();<br>})</code></pre>
+          </div>
+          <!-- Test Error Stack -->
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+        
+          </div>
+        </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>Report generated by <a href="http://adamgruber.github.io/mochawesome/" target="_blank">mochawesome</a>.<br>Designed and built by <a href="https://github.com/adamgruber" target="_blank">adamgruber</a>. &copy;2016.</p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/vendor.js"></script>
+    <script src="js/mochawesome.js"></script>
+  </body>
+</html>
